@@ -2,83 +2,92 @@
 <html lang="en" class="bg-gray1">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <link href="/dist/output.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap' rel='stylesheet'>
-    <script src="https://kit.fontawesome.com/396065dad2.js" crossorigin="anonymous"></script>
-    <!--having trouble seeing icons load, like in the footer? Ensure to follow the README file and update your fontawesome link here, it's free to create-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Boilerplate</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap' rel='stylesheet'>
+  <script src="https://kit.fontawesome.com/396065dad2.js" crossorigin="anonymous"></script>
+  <!--having trouble seeing icons load, like in the footer? Ensure to follow the README file and update your fontawesome link here, it's free to create-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Boilerplate</title>
 </head>
 
 <body class="">
-    <div class="navbar mb-9">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
-              <i class="fa-solid fa-bars text-xl"></i>
-            </label>
-            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Item 1</a></li>
-              <li tabindex="0">
-                <a class="justify-between">
-                  Parent
-                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z"/></svg>
-                </a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
+  <div class="navbar mb-9">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <label tabindex="0" class="btn btn-ghost lg:hidden">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </label>
+        <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+          <li><a>Item 1</a></li>
+          <li tabindex="0">
+            <a class="justify-between">
+              Parent
+              <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+              </svg>
+            </a>
+            <ul class="p-2">
+              <li><a>Submenu 1</a></li>
+              <li><a>Submenu 2</a></li>
             </ul>
-          </div>
-          <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Item 1</a></li>
-            <li tabindex="0">
-              <a>
-                Parent
-                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-              </a>
-              <ul class="p-2">
-                <li><a>Submenu 1</a></li>
-                <li><a>Submenu 2</a></li>
-              </ul>
-            </li>
-            <li><a>Item 3</a></li>
-          </ul>
-        </div>
-        <div class="navbar-end">
-          <a class="btn">Get started</a>
-        </div>
+          </li>
+          <li><a>Item 3</a></li>
+        </ul>
       </div>
-      <!-- header end -->
-    <div class="grid grid-cols-3">
+      <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a>Item 1</a></li>
+        <li tabindex="0">
+          <a>
+            Parent
+            <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+              <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+            </svg>
+          </a>
+          <ul class="p-2">
+            <li><a>Submenu 1</a></li>
+            <li><a>Submenu 2</a></li>
+          </ul>
+        </li>
+        <li><a>Item 3</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <a class="btn">Get started</a>
+    </div>
+  </div>
+  <!-- header end -->
+  <div class="grid grid-cols-3">
 
+  </div>
+  </div>
+  <div id="grid-box">
+    <div id="1">box one</div>
+    <div id="2">box two</div>
+    <div id="3">box three</div>
+  </div>
+  <footer class="fixed bottom-0 col-span-full footer items-center p-4 bg-gray2 shadow-2xl text-neutral-content">
+    <div class="items-center grid-flow-col">
+      <img alt="image" src="https://avatars.githubusercontent.com/u/86270372?v=4" class="w-14 h-14">
+      <p>Copyright © year - All rights reserved</p>
     </div>
+    <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+      <a href="">
+        <i class="fa-brands fa-discord"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-mastodon"></i>
+      </a>
+      <a href="">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
     </div>
-    <footer class="fixed bottom-0 col-span-full footer items-center p-4 bg-gray2 shadow-2xl text-neutral-content">
-        <div class="items-center grid-flow-col">
-            <img alt="image" src="https://avatars.githubusercontent.com/u/86270372?v=4" class="w-14 h-14">
-            <p>Copyright © year - All rights reserved</p>
-        </div>
-        <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-            <a href="">
-                <i class="fa-brands fa-discord"></i>
-            </a>
-            <a href="">
-                <i class="fa-brands fa-mastodon"></i>
-            </a>
-            <a href="">
-                <i class="fa-brands fa-youtube"></i>
-            </a>
-        </div>
-    </footer>
+  </footer>
 </body>
 
 </html>
